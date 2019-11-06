@@ -1,0 +1,43 @@
+<!--==========================
+  Header Section
+  ============================-->
+  <header id="header">
+        <div class="container">
+    
+          <div id="logo" class="pull-left">
+            <!-- <a href="#hero"><img src="../../assets/EZ.jpg" alt="" title="EZ" /></img></a> -->
+            <!-- Uncomment below if you prefer to use a text image -->
+            <h1>EZProperty</h1>
+          </div>
+
+    
+          <nav id="nav-menu-container">
+            <ul class="nav-menu">
+              <li class="menu-active"><a [routerLink]="['/']">Home</a></li>
+              <li><a [routerLink]="['/about']">About Us</a></li>
+              <li><a [routerLink]="['/Forms']">Register</a></li>
+              <li><a [routerLink]="['/Login']">Login</a></li>
+              <!-- <li><a [routerLink]="['/services']">Services</a></li> -->
+              <li><a [routerLink]="['/team']">Team</a></li>
+              <li class="menu-has-children"><a>Catagories</a>
+                <ul>
+                  <li><a [routerLink]="['/villa']">Villa</a></li>
+                  <li><a [routerLink]="['/top']">Top Properties</a></li>
+                  <li class="menu-has-children"><a href="#">Appartment</a>
+                    <ul>
+                      <li><a [routerLink]="['/twobhk']">2 BHK</a></li>
+                      <li><a [routerLink]="['/threebhk']">3 BHK</a></li>
+                      <li><a [routerLink]="['/fourbhk']">4 BHK</a></li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+              </li>
+              <!-- <li><a [routerLink]="['/contact us']">Contact Us</a></li> -->
+            </ul>
+          </nav>
+          <!-- #nav-menu-container -->
+        </div>
+      </header>
+      <!-- #header -->
+    
